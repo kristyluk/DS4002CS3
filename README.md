@@ -22,7 +22,14 @@ This repository contains information, data, and scripts based on Project 2 of th
 5. CS3 Case Study Rubric.pdf
    
 6. README.md
+   
+### Instructions for reproducing results
+#### Please follow these steps in order to replicate this project's experimental design:
 
+1. Download all three .csv files from the DATA folder. This step is not particulary necessary since the script extracts the data files straight from this DATA folder. 
+2. Open up "final_scipt.ipynb" located in the SCRIPT folder using Google Colab. Load the datset using the code in the file, and then follow the code to perform inital EDA. Then, you can begin the ARIMA modeling process after downloading the necessary Python libraries. The first section details steps on how to select appropriate values for p, d, and q values using the data visualizations created in the code. The code under the "Choosing best ARIMA parameters" consists of some tests and plots used to determine appropriate parameters. Feel free to change the parameters if you feel there are more fitting values. The second part of the ARIMA modeling process is the code located under the "Now actually using the ARIMA model" section. This is where ARIMA will use the historical wage ratio data from 1960-2000 to predict the wage ratios for 2001-2019. A model fit summary and dataframe of the predicted and actual wage ratios will be generated to easily compare the values. Then, the MSE, RMSE, and residuals are calculated. The code will plot the residuals on a plot, display summary statistics of the residuals, and display a graphic of the actual and predicted wage ratios.
+3. Lastly, the section "OPTIONAL: Attempting To Model Using Holt's Dampened Trend" is a little extra code we deployed that tried to forcast the wage ratio using exponential smoothing techniques. 
+   
 ## References
 [1] B. Etienne, “Time Series in Python — Exponential Smoothing and ARIMA processes,” TowardsDataScience.com, https://towardsdatascience.com/time-series-in-python-exponential-smoothing-and-arima-processes-2c67f2a52788.  
 [2] D. Abugaber, “Chapter 23: Using ARIMA for Time Series Analysis,” University of Illinois Chicago, https://ademos.people.uic.edu/Chapter23.html/.  
