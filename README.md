@@ -10,14 +10,17 @@ This repository contains information, data, and scripts based on Project 2 of th
     - 20th_century_data.csv --> data from the cleaned dataset, but only from 1960-2001 for the ARIMA modeling 
     - Data Appendix.pdf --> Data Appendix for all variables in the dataset used for project
       
-2. SCRIPTS
+2. SCRIPT
     - final_script.ipynb --> a full script containing all of the code needed to reproduce results
 
 3. Reference Materials
     - ARIMA for Time Series Forecasting_A Complete Guide.pdf --> additional information about ARIMA forcasting 
     - Gender pay gap remained stable over past 20 years in US.pdf --> more in depth article about gender wage disparities
+      
 4. CS3 Case Study Hook Document.pdf
+   
 5. CS3 Case Study Rubric.pdf
+   
 6. README.md
 
 ## References
