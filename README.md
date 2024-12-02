@@ -16,8 +16,9 @@ This repository contains information, data, and scripts based on Project 2 of th
 3. Reference Materials
     - ARIMA for Time Series Forecasting_A Complete Guide.pdf --> additional information about ARIMA forcasting 
     - Gender pay gap remained stable over past 20 years in US.pdf --> more in depth article about gender wage disparities
-      
-4. README.md
+4. CS3 Case Study Hook Document.pdf
+5. CS3 Case Study Rubric.pdf
+6. README.md
 
 ## References
 [1] 	B. Etienne, “Time Series in Python — Exponential Smoothing and ARIMA processes,” TowardsDataScience.com, https://towardsdatascience.com/time-series-in-python-exponential-smoothing-and-arima-processes-2c67f2a52788.  
