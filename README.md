@@ -1,4 +1,4 @@
-# DS4002CS3 Predicting Gender Wage Ratios Case Study 
+# DS4002 CS3 Predicting Gender Wage Ratios Case Study 
 ### Fall 2024 - Kristy Luk
 
 This repository contains information, data, and scripts based on Project 2 of this course, which focused on time-series data. You are tasked to use ARIMA forcasting model to predict gender wage ratios. 
@@ -6,16 +6,16 @@ This repository contains information, data, and scripts based on Project 2 of th
 ### This repository is organized as follows:
 1. DATA
     - full_data.csv --> orginial dataset before cleaning
-    - cleaned_data.csv --> cleaned dataset with no N/As
+    - cleaned_data.csv --> cleaned dataset 
     - 20th_century_data.csv --> data from the cleaned dataset, but only from 1960-2001 for the ARIMA modeling 
-    - Data Appendix.pdf --> Data Appendix for all variables in the dataset used for project
+    - Data Appendix.pdf --> Data Appendix for all variables in the dataset used in the project
       
 2. SCRIPT
     - final_script.ipynb --> a full script containing all of the code needed to reproduce results
 
 3. Reference Materials
     - ARIMA for Time Series Forecasting_A Complete Guide.pdf --> additional information about ARIMA forcasting 
-    - Gender pay gap remained stable over past 20 years in US.pdf --> more in depth article about gender wage disparities
+    - Gender pay gap remained stable over past 20 years in US.pdf --> more in depth article about gender wage disparities in the US
       
 4. CS3 Case Study Hook Document.pdf
    
